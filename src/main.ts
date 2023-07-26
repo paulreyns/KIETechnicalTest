@@ -27,10 +27,11 @@ export class AppComponent {
 
   // 3. Display the Project Name under the Title in the Template
 
-  // 4. Display the Tasks for the Project in a Table
+  // 4. Display the Tasks for the Project in a HTML Table
 
-  // 5. Only display Tasks that have a Start and End Date
+  // (Bonus) 5. Only display Tasks that have a Start and End Date
 
+  // (Bonus) 6. Format the Dates to display dd/mm/yyyy
 }
 
 class Project {
