@@ -1,10 +1,9 @@
-{ "name":"Arnesby Bank Implementation",
-	tasks: [
-	{ "name": "Scope", start: "2023-01-02T09:00:17.459Z", end: "2023-01-06T17:30:17.459Z" },
-	{ "name": "Analysis", start: "2023-01-09T09:00:17.459Z", end: "2023-01-13T17:30:17.459Z" },
-	{ "name": "Design", start: "2023-01-16T09:00:17.459Z", end: "2023-01-20T17:30:17.459Z" },
-	{ "name": "Development", start: "2023-02-06T09:00:17.459Z", end: "2023-02-10T17:30:17.459Z" },
-	{ "name": "Testing", start: "2023-02-13T09:00:17.459Z", end: "2023-02-17T17:30:17.459Z" },
-	{ "name": "Training", start: "2023-02-20T09:00:17.459Z", end: "2023-02-24T17:30:17.459Z" },
-	{ "name": "Documentation", start: "2023-03-06T09:00:17.459Z", end: "2023-03-10T17:30:17.459Z" },
-	{ "name": "Pilot", start: "2023-03-13T09:00:17.459Z", end: "" }]}
+{ "name":"Arnesby Bank Implementation", "tasks": [
+	{ "name": "Scope", "start": "2023-01-02T09:00:17.459Z", "end": "2023-01-06T17:30:17.459Z" },
+	{ "name": "Analysis", "start": "2023-01-09T09:00:17.459Z", "end": "2023-01-13T17:30:17.459Z" },
+	{ "name": "Design", "start": "2023-01-16T09:00:17.459Z", "end": "2023-01-20T17:30:17.459Z" },
+	{ "name": "Development", "start": "2023-02-06T09:00:17.459Z", "end": "2023-02-10T17:30:17.459Z" },
+	{ "name": "Testing", "start": "2023-02-13T09:00:17.459Z", "end": "2023-02-17T17:30:17.459Z" },
+	{ "name": "Training", "start": "2023-02-20T09:00:17.459Z", "end": "2023-02-24T17:30:17.459Z" },
+	{ "name": "Documentation", "start": "2023-03-06T09:00:17.459Z", "end": "2023-03-10T17:30:17.459Z" },
+	{ "name": "Pilot", "start": "2023-03-13T09:00:17.459Z", "end": "" }]}
