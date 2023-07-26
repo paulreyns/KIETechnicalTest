@@ -16,9 +16,30 @@ import { provideHttpClient } from '@angular/common/http';
   `,
 })
 
-// export component
 export class AppComponent {
-  project: any = {};
+  project: Project = null;
+
+  // 1. Add an function that is called when the Component is initialised
+
+  // 2. In the Init function, make a Http Call to <URL> to fetch a Project
+
+  // 3. Display the Project Name under the Title in the Template
+
+  // 4. Display the Tasks for the Project in a Table
+
+  // 5. Only display Tasks that have a Start and End Date
+
+}
+
+class Project {
+  public name: string;
+  public tasks: Task[];
+}
+
+class Task {
+  public name: string;
+  public start?: Date;
+  public end?: Date;
 }
 
 bootstrapApplication(AppComponent, {
