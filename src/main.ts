@@ -1,25 +1,26 @@
 // import required packages
 import 'zone.js';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { provideHttpClient } from '@angular/common/http';
 
 // describe component
 @Component({
-  selector: 'add-one-button', // component name used in markup
+  selector: 'application', // component name used in markup
   standalone: true, // component is self-contained
   // the component's markup
   template: `
-   <button (click)="count = count + 1">Add one</button> {{ count }}
+  <div>
+    <h1>Project</h1>
+  </div>
   `,
 })
 
 // export component
-export class AddOneButtonComponent implements OnInit {
-  count = 0;
-
-  ngOnInit(): void {
-    this.count = 10;
-  }
+export class AppComponent {
+  project: any = {};
 }
 
-bootstrapApplication(AddOneButtonComponent);
+bootstrapApplication(AppComponent, {
+  providers: [provideHttpClient()],
+});
