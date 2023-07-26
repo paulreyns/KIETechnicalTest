@@ -21,7 +21,7 @@ export class AppComponent {
 
   // 1. Add an function that is called when the Component is initialised
 
-  // 2. In the Init function, make a Http Call to <URL> to fetch a Project
+  // 2. In the Init function, make a Http Call to 'https://raw.githubusercontent.com/paulreyns/KIETechnicalTest/main/Project.json' to fetch a Project
 
   // 3. Display the Project Name under the Title in the Template
 
