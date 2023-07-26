@@ -8,6 +8,7 @@ import { provideHttpClient } from '@angular/common/http';
 @Component({
   selector: 'application', // component name used in markup
   standalone: true, // component is self-contained
+  imports: [CommonModule],
   // the component's markup
   template: `
   <div>
